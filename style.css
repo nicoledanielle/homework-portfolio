@@ -13,7 +13,9 @@
 	  		font-family: arial;
 	  	}
 	  	
- 	h1 {
+ 	nav {
+ 			margin: auto;
+ 			align-content: center;
 	  		text-align: center;
 	  	}
 
@@ -31,6 +33,10 @@
 
 	  		}
 
+	  span { 
+	  		color: #00cc44;
+	  	}
+
 	  	a:link, a:visited {
 		    background-color: #00cc44;
 		    color: white;
@@ -46,13 +52,84 @@
 	    	background-color: #b3ffcc;
 		}
 
+		ul {
+			text-align: center;
+			font-family: arial;
+			color: #666666;
+			list-style-type: none;
+		}
+
  		footer {
 	  		text-align: center;
 	  		color: #666666;
 	  		font-family: arial;
-
 	  		}
 
-</style>
+	  h6 {
+	  		text-align: center;
+	  		color: #666666;
+	  		font-family: arial;
+	  	}
+
+	  	.about {
+			margin: auto;
+			overflow:scroll; 
+			height:600px; 
+			width: 600px;
+			border: 3px dotted #00cc44;
+			padding-top: 5px;
+			padding-left: 5px;
+			padding-right: 5px;
+			padding-bottom: 5px;
+	  		}
+
+	  	.portfoliobar {
+			margin: auto;
+			overflow:scroll; 
+			height:600px; 
+			width: 600px;
+			border: 3px dotted #00cc44;
+			padding-top: 5px;
+	  		}
+
+	  	.citipix {
+		    margin: auto;
+		    width: 546px;
+		    height: 325px;
+		    padding-bottom: 5px;
+		    padding-top: 5px;
+		    padding-left: 5px;
+		    padding-right: 5px;
+		    border: 3px solid white;
+		}
+
+		.relaxr {
+		    margin: auto;
+		    width: 541px;
+		    height: 402px;
+		    padding-bottom: 5px;
+		    padding-top: 5px;
+		    padding-left: 5px;
+		    padding-right: 5px;
+		    border: 3px solid white;
+	  	}
+
+		.matchmaker {
+		    margin: auto;
+		    width: 543px;
+		    height: 438px;
+		    padding-bottom: 5px;
+		    padding-top: 5px;
+		    padding-left: 5px;
+		    padding-right: 5px;
+		    border: 3px solid white;
+	  	}
+
+	  	.copyright {
+	  		text-align: center;
+	  		color: #666666;
+	  		font-family: arial;
+			font-size: 10px;	  		
+	  	}
 
 </head>
